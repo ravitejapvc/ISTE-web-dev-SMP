@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <h1>Register here</h1>
+    <p>Your data is safe with us.We are collecting data to know more about you.Knowing you will help us.</p>
+    <h2>Fill this form</h2>
+    <form name="Fname"><label for ='Fname'>First Name:</label> <input type="text" name="Fname" id="Fname"></form>
+    &NonBreakingSpace;
+    
+    <form name="Lname"><label for ='Lname'>Last Name:</label> <input type="text" name="Lname" id="Lname"></form>
+    <hr >
+    <form name="mailID"><label for ='mailID'>Email ID:</label> <input type="email" name="mailID" id="mailID"></form>
+    &NonBreakingSpace;
+    <form name="phoneNO"><label for ='phoneNO'>Contact number:</label> <input type="number" name="phoneNO" id="phoneNO"></form>
+    &NonBreakingSpace;
+    <form name="password"><label for ='password'>Password:</label> <input type="password" name="password" id="password"></form>
+    &NonBreakingSpace;
+
+    <form name="branch"><label for ='branch'>Your Branch:</label> <select name="branch"  id="branch"><option value="">..choose your Branch..</option>
+    <hr >
+    <option value="CS">Computer Engineering </option>
+    <option value="IT">information technoloy </option>
+    <option value="AI">Artificial inteligence </option>
+    <option value="EEE">Electrical Engineering </option>
+    <option value="EC">Electronics and Communications Engineering </option>
+    <option value="ME">Mechanical Engineering </option>
+    </select>
+    </form>
+    
+    &NonBreakingSpace;
+    &NonBreakingSpace;
+    <form name="year" ><label for ='year'>Current Year:</label>
+    <select name="year" id ="year">
+    <option value="first">1st year </option>
+    <option value="second">2nd year</option>
+    <option value="third">3rd year </option>
+    <option value="fourth">4th year </option>
+    </select>
+    </form>
+
+    <fieldset><legend>Interests:</legend><div><input type="checkbox" id="interst" name="interst" checked><label for="interst">Sports</label></div>
+        <div><input type="checkbox" id="interst" name="interst" checked><label for="interst">Music</label></div>
+        <div><input type="checkbox" id="interst" name="interst" checked><label for="interst">Coding</label></div>
+       
+    </fieldset>
+
+    
+    &NonBreakingSpace;
+    <form action="" id ='address'>
+        <textarea rows="4" cols="50" name ="address" form ="address"> Address>>></textarea>
+    </form>
+    <hr>
+    <form name="subb"><label for ='subb'>submit here:</label> <input type="submit" name="subb" id="subb"></form>
+ 
+</body> 
+
+</html>
